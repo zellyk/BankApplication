@@ -71,7 +71,7 @@ namespace BankApplication
                 percentChange = (increase / startingBalance);
             }
 
-            Console.WriteLine(String.Format("\nPrevious balance: {0:C2}\nNew balance: {1:C2}\nPercent change from old balance: {2:P2}\nMonthly interest: {3:C2}",
+            Console.WriteLine(String.Format("\nPrevious Account Balance: {0:C2}\nNew Account Balance: {1:C2}\nPercent change from old balance: {2:P2}\nMonthly interest: {3:C2}",
                 startingBalance, currentBalance, percentChange, currentBalance * (annualInterest / 12.0)));
 
             startingBalance = currentBalance;

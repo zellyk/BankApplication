@@ -17,6 +17,8 @@ namespace BankApplication
         {
             double balanceUSD = base.currentBalance * rate;
             return balanceUSD;
+
+
         }
     }
 }
