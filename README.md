@@ -3,4 +3,4 @@
  Project in C# Bank Account simulation with interfaces and abstract classes.
  
  By:
- Jonathan Marcotte
+ Jonathan Marcotte and Mohamad Salameh
