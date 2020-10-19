@@ -11,6 +11,7 @@ namespace BankApplication
         public GlobalSavings(double balance, double interestRate) : base(balance, interestRate)
         {
         
+
         }
 
         public double USValue(double rate)
